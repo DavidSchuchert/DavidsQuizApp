@@ -1,1 +1,71 @@
 /* font-family: 'Rubik', sans-serif; */
+/* font-family: 'PT Sans', sans-serif; */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.col-md-4 {
+    background-color: rgb(88, 88, 252);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    gap: 8px;
+    font-size: 20px;
+    color: white;
+}
+
+.col-md-4 img{
+    padding: 16px;
+}
+
+.col-md-4 p:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.font_ptsans{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.font_rubik_medium{
+    font-family: 'Rubik', sans-serif;
+    font-size: medium;
+}
+.font_rubik_regular{
+    font-family: 'Rubik', sans-serif;
+}
+
+.card-title{
+    font-size:32px !important;
+}
+
+.mb-3{
+    width:64vw;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col-md-8{
+    display: flex;
+}
+
+.card-body{
+    width: 300px;
+}
+
+.card_small:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
